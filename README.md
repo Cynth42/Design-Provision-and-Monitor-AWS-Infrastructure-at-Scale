@@ -1,8 +1,14 @@
-# Cloud Developer ND Course 2: Design for Performance and Scalability
+# Udacity AWS Cloud Cloud Architect Nanodegree Project 2: Design for Performance and Scalability
+
+## Project  Instructions:
+Plan, design, provision,and monitor infrastructure in AWS using industry-standard and open source tools. Practice the skills you have learned throughout the course to optimize infrastructure for cost and performance. Use Terraform to provision and configure AWS services in a global configuration.
 
 ---
 
-## Project  Instructions
+Installed the required tooling for this project:
+
+1. AWS CLI
+2. Terraform
 
 ### Exercise 1
 
@@ -29,3 +35,29 @@
   
 2. Take a screenshot of the EC2 instances page
 3. Take a screenshot of the VPC page 
+
+### TasK 1 Create AWS Architecture Schematics
+
+* Cost-effective AWS infrastructure for a new social media application development project for 50,000 single-region users: Diagram 1. 
+
+* SERVERLESS architecture schematic for a new application development project: Diagram 2
+
+### Task 2 Calculate Infrastructure Costs
+Use the AWS Pricing Calculator to estimate how much it will cost to run the services for one month.
+* Initial Cost Estimate
+* Reduced Cost Estimate
+* Increased Cost Estimate
+
+### Task 5 Use Terraform to Provision AWS Infrastructure
+Screenshots of the provisioned AWS Infrasructure:
+* 6 EC2 instances in the AWS console. Saved as Terraform_1_1.png
+* Use Terraform to delete the 2 m4.large instances: 4 t2.micro instances saved as Terraform_1_2.png 
+* Write the code to deploy an AWS Lambda Function using Terraform take a screenshot of EC2 instances page and saved as Terraform_2_1.png
+* VPC page and saved it as Terraform_2_2.png
+* CloudWatch log entry for the lambda function execution and save it as Terraform_2_3.png
+
+### Task 6: Destroy the Infrastructure using Terraform 
+Destroy all running provisioned infrastructure using Terraform so as not to incur unwanted charges. 
+Screenshot of the EC2 instances saved as Terraform_destroyed.png
+
+
